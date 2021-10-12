@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root{
+--white-light: rgba 255,255,255,0.5;
+--alice-blue: #f8f9fa;
+--carribian-green:#40c9a2;
+--gray:#ededed;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Quicksand',sans-serif;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--gray);
+    background-size: cover;
+}
+.banner .content 
+{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2
+{
+    font-size: 5em;
+    color: #000
+}
+.banner .content p
+{
+    font-size: 1em;
+    color: #000;
+}
+.btn
+{
+    font-size: 1em;
+    color: #000;
+    background: var(--carribian-green);
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btn:hover{
+    color:green;
+}
+header 
+{
+    background: var(--carribian-green);
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 40px 100px;
+z-index: 10000;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.5s;
+}
+header .logo
+{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+    padding-left: 10px;
+}
+header .logo span
+{
+    color: #ff0157;
+}
+ header .navigation
+{
+    position: relative;
+    display: flex;
+    margin-right: 20px;
+    
+}
+ header .navigation li
+{
+    margin-right: 10px;
+    margin-left: 30px;
+    list-style: none;
+}
+ header .navigation li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+   
+}
+ header .navigation li a:hover
+{
+color: #000;
+}

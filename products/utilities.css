@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root{
+--white-light: rgba 255,255,255,0.5;
+--alice-blue: #f8f9fa;
+--carribian-green:#40c9a2;
+--gray:#ededed;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Quicksand',sans-serif;
+    background: var(--gray);
+}
+.sininbox
+{
+    width: 320px;
+    height: 500px;
+    background: var(--alice-blue);
+    top: 38%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.vl
+{
+ width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: -50px;
+left: calc(50% - 50px);
+}
+h1
+{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.sininbox p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.sininbox input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.sininbox input[type="text"], input[type="password"], input[type="confirm"]
+{
+    border: none;
+    border-bottom: 1px solid var(--carribian-green);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#000;
+    font-size: 16px;
+}
+.sininbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: var(--carribian-green);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.sininbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: grey;
+    color: #000;
+}

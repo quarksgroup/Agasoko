@@ -14,13 +14,31 @@
         font-family: 'Quicksand',sans-serif;
         background: var(--gray);
 }
+header
+{
+    background: var(--carribian-green);
+}
+header a
+{
+   color: #fff;
+   margin-top: 50px;
+   margin-bottom: 20px; 
+   margin-left: 200px;
+   text-decoration: none;
+   display: inline-block;
+   text-transform: uppercase;
+}
+header a:hover
+{
+    color: #000;
+}
 .loginbox
 {
     width: 320px;
     height: 420px;
     background: var(--alice-blue);
     color:var(--carribian-green);
-    top: 38%;
+    top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -61,8 +79,18 @@ h1
     background: transparent;
     outline: none;
     height: 40px;
-    color: #fff;
+    color: #000;
     font-size: 16px;
+}
+.loginbox a
+{
+    border: none;
+    outline: none;
+    height: 10px;
+    background: var(--carribian-green);
+     color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
 }
 .loginbox input[type="submit"]
 {
@@ -82,10 +110,9 @@ h1
 }
 .loginbox a
 {
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 20px;
     color: #000;
+    background: none;
+    text-decoration: none;
 }
 .loginbox a:hover
 {

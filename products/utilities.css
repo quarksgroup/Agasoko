@@ -15,12 +15,30 @@ body {
     font-family: 'Quicksand',sans-serif;
     background: var(--gray);
 }
+header
+{
+    background: var(--carribian-green);
+}
+header a
+{
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+header a:hover
+{
+    color: #000;
+}
 .sininbox
 {
     width: 320px;
     height: 500px;
     background: var(--alice-blue);
-    top: 38%;
+    top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);

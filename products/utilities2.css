@@ -67,7 +67,7 @@ width: 100%;
 padding: 40px 100px;
 z-index: 10000;
 display: flex;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
 transition: 0.5s;
 }

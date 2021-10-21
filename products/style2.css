@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root{
+--white-light: rgba 255,255,255,0.5;
+--alice-blue: #f8f9fa;
+--carribian-green:#40c9a2;
+--gray:#ededed;
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -14,8 +24,7 @@ body{
     background-repeat: no-repeat;
     padding: 100px;
     margin-top: 40px;
-    margin-bottom: 40px;
-    width: 50%;
+    width: 150%;
     height: 80vh;
     margin-left: 20px;
     display: flex;
@@ -25,16 +34,17 @@ body{
 }
 .banner a
 {
-    background: #000;
+    background: var(--carribian-green);
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
     margin-left: 40px;
     align-items: center;
     justify-content: center;
-
-    
-    
+    font-size: large;
+}
+.banner a .p2{
+    margin: 15px 15px;
 }
 .banner p
 {
@@ -42,6 +52,7 @@ body{
     text-transform: capitalize;
     color: #000;
     margin-left: 40px;
+    font-size: large;
 }
 .banner a:hover
 {
@@ -55,3 +66,21 @@ height: 60vh;
 margin-bottom: 100px;
 align-items: center;
 
+}
+header
+{
+background: var(--carribian-green);
+background-size: cover;
+width: 100%;
+height: 100px;
+margin: 0;
+align-items: center;
+}
+header a
+{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 70px;
+    margin-top: 40px;
+}

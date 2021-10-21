@@ -15,13 +15,24 @@
         background: var(--gray);
 }
 header
-{
-    background: var(--carribian-green);
-}
+
+    {
+        background: var(--carribian-green);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    }
 header a
 {
    color: #fff;
-   margin-top: 50px;
+   margin-top: 10px;
    margin-bottom: 20px; 
    margin-left: 200px;
    text-decoration: none;
@@ -140,16 +151,106 @@ h1
     font-weight: 700;
     font-size: 10pt;
   }
-  .custom-file-input:hover::before {
+.custom-file-input:hover::before {
     border-color: black;
   }
-  .custom-file-input:active {
+.custom-file-input:active {
     outline: 0;
   }
-  .custom-file-input:active::before {
+.custom-file-input:active::before {
     background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
   }
   
-  body {
+ body {
     padding: 20px;
   }
+.hidden{
+    display: none;
+}
+
+
+.productBox{
+    display: flexbox;
+    z-index: 100;
+    justify-content: space-between;
+   width: 100%;
+   height: 100%;
+}
+.productBox img
+{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+    margin-right: 10px;
+    align-items: center;
+   
+   
+
+}
+.btn-cart
+{
+   
+    color: black;
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.btn-cart:hover
+{
+    background: gray;
+}
+.btn-buy
+{
+   
+    color: var(--carribian-green);
+   
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    text-transform: uppercase;
+    
+}
+.btn-buy:hover
+{
+    background: gray;
+    color: white;
+}
+
+.product-info-top
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating span
+{
+    color: var(--carribian-green);
+    margin-right: 10px;
+}
+.rating span:hover
+{
+    color: gray;
+}
+.sm-title 
+{
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.product-name
+{
+    margin-left: 10px;
+    color: var(--carribian-green);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.product-name:hover
+{
+    background: white;
+    color: gray;
+}
+.product-price
+{
+    margin-left: 10px;
+}

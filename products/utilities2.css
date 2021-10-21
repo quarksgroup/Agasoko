@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--gray);
+    background: var(--carribian-green);
     background-size: cover;
 }
 .banner .content 
@@ -34,18 +34,18 @@ body {
 .banner .content h2
 {
     font-size: 5em;
-    color: #000
+    color: #fff;
 }
 .banner .content p
 {
     font-size: 1em;
-    color: #000;
+    color: #fff;
 }
 .btn
 {
     font-size: 1em;
-    color: #000;
-    background: var(--carribian-green);
+    color: #fff;
+    background: black;
     display: inline-block;
     padding: 10px 30px;
     margin-top: 20px;
@@ -55,7 +55,7 @@ body {
     transition: 0.5s;
 }
 .btn:hover{
-    color:green;
+    color:var(--alice-blue);
 }
 header 
 {

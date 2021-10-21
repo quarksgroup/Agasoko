@@ -1,31 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
-    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
     <header>
         <a href="./index.html">Agasoko</a>
     </header>
-<div class="loginbox">
-    <h1>create product</h1>
-    <form>
-        <p></p>
-        <input type="text" name="" placeholder="Enter product name">
-        <input type="file" class="custom-file-input">
-        <p>Price</p>
-        <input type="text" name="" placeholder="Enter product price">
-        <input type="submit" name="" value="create">
-        
-    </form>
-</div>
+    <div class="loginbox">
+        <h1>create product</h1>
+        <div class="loginbox">
+            <h1>create product</h1>
+            <form id="productform">
+                <p></p>
+                <input type="text" id="productName" name="" placeholder="Enter product name">
+                <input type="color" id="productColor" value="#ff0000" id="colorWell">
+                <input type="file" id="file" class="custom-file-input">
+                <p>Price</p>
+                <input type="text" id="productPrice" name="" placeholder="Enter product price">
+                <input type="submit" name="" value="create">
+
+            </form>
+        </div>
+
+    </div>
+    <div class="productBox hidden">
+        <div class="product">
+            <div class="productBox img">
+                <img src="./images/s10.jfif" id="img" alt="product-image">
+            </div>
+            <div class="product-btns">
+                <button type="button" class="btn-cart">add to cart<span><i class="fas fa-plus"></i></span>
+                </button>
+                <button type="button" class="btn-buy">buy now<span><i class="fas fa-shopping"></i></span>
+                </button>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="product-info">
+        <div class="product-info-top">
+
+            <h2 class="sm-title">life style</h2>
+            <div class="rating">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="far fa-star"></i></span>
+            </div>
+        </div>
+        <a href="#" class="product-name">mens shoes Dn 23xx,new product
+
+        </a>
+        <p class="product-price">$150.00</p>
+    </div>
+
+    <div class="productBox hidden">
+        <div class="product">
+            <div class="productBox img">
+                <img src="./images/s10.jfif" id="img" alt="product-image">
+            </div>
+            <div class="product-btns">
+                <button type="button" class="btn-cart">add to cart<span><i class="fas fa-plus"></i></span>
+                </button>
+                <button type="button" class="btn-buy">buy now<span><i class="fas fa-shopping"></i></span>
+                </button>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="product-info">
+        <div class="product-info-top">
+
+            <h2 class="sm-title">life style</h2>
+            <div class="rating">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="far fa-star"></i></span>
+            </div>
+        </div>
+        <a href="#" class="product-name">mens shoes Dn 23xx,new product
+
+        </a>
+        <p class="product-price">$150.00</p>
+    </div>
+
 </body>
+<script src="./main.js" type="text/script"></script>
+
 </html>

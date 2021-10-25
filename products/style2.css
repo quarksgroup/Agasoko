@@ -23,21 +23,20 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px;
-    margin-top: 40px;
-    width: 150%;
-    height: 80vh;
-    margin-left: 20px;
-    display: flex;
-    justify-content: space-between;
-    
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 300%;
+    height: 100vh;
+    margin-left: 0;
+   
     
 }
 .banner a
 {
-    background: var(--carribian-green);
+    
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--carribian-green);
     margin-left: 40px;
     align-items: center;
     justify-content: center;
@@ -56,14 +55,14 @@ body{
 }
 .banner a:hover
 {
-    color: #ccc;
+    color: white;
     cursor: pointer;
 }
 .carousel-inner img
 {
 width: 50%;
 height: 60vh;
-margin-bottom: 100px;
+margin-bottom: 80px;
 align-items: center;
 
 }

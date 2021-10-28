@@ -162,30 +162,26 @@ h1
   }
   
  body {
-    padding: 20px;
+   background-size: cover;
+
   }
 .hidden{
     display: none;
 }
 
 
-.productBox{
-    display: flexbox;
-    z-index: 100;
-    justify-content: space-between;
-   width: 100%;
-   height: 100%;
-}
-.productBox img
+.productBox
 {
-    width: 50%;
-    height: 50%;
+   width: 35%;
+   height: 70vh;
+}
+.productBox .product-content img
+{
+    margin-top: 200px;
+    width: 25vh;
+    height: 25vh;
     margin-left: 20px;
-    margin-right: 10px;
     align-items: center;
-   
-   
-
 }
 .btn-cart
 {

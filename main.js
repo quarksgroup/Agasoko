@@ -36,5 +36,7 @@ window.onload = function () {
 
         selector(".productBox").classList.remove("hidden");
 
+
+
     })
 }

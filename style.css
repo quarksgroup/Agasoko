@@ -250,3 +250,182 @@ h1
 {
     margin-left: 10px;
 }
+/**/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root {
+    --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
+    --success-color: #5cb85c;
+    --error-color: #d9534f;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.b
+{
+    display: flex;
+}
+p
+{
+    margin-left: 300px;
+    margin-top: 400px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-transform: capitalize;
+    font-size: large;
+}
+.v {
+    padding-top: 40px;
+    padding-right: 10px;
+}
+.v a
+{
+    background: darkslategrey;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: white;
+    text-decoration: none;
+    margin-top: 1;
+    cursor: pointer;
+
+}
+.v a:hover
+{
+    background: green;
+ color: #fff;
+}
+.k p {
+    padding-bottom: 50px;
+}
+.k a
+{
+    margin-left: 400px;
+    margin-top: 30px;
+    
+    color: white;
+    box-sizing: border-box;
+    padding-left: 300px;
+    margin-top: 40px;
+    background: darkslategrey;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.k a:hover
+{
+background: green;
+color: #fff;
+}
+.container a
+{
+    margin-right: 10px;
+}
+.banner
+{
+   
+    background: darkslategrey;
+    width: 20%;
+    height: 100vh;
+}
+.banner .logo
+{
+    background: rgb(124, 119, 119);
+    color: #fff;
+    background-size: cover;
+    font-size: large;
+    width: 100%;
+    height:10vh ;
+   
+    
+}
+h1 {
+   
+    padding: 10px 50px;
+    margin-top: 0px;
+    padding-left: 10px;
+    
+}
+
+ul li
+{
+    margin-top: 40px;
+    margin-left: 20px;
+    list-style: none;
+    align-items: center;
+}
+ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: space-between;
+    border-bottom: 20px;
+}
+ul li a:hover
+{
+    background: green;
+    color: #fff;
+}
+.line {
+    margin-left: 20px;
+}
+.line:hover
+{
+    color: green;
+}
+.l1{
+    border-bottom: 10px solid gray;
+    margin: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+.l1:hover
+{
+color: green;
+}
+.l2{
+    border-bottom: 10px solid gray;
+    margin: 10px;
+    width: 90px;
+    border-radius: 5px;
+}
+.l3{
+    border-bottom: 10px solid gray;
+    margin: 10px;
+    width: 80px;
+    border-radius: 5px;
+}
+img.sm{
+    max-width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.t 
+{
+    margin-top: 200px;
+    margin-left: 30px;
+    
+}
+.t a
+{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+    cursor: pointer;
+}
+.t a:hover
+{
+    background: green;
+    color: #ffff;
+}

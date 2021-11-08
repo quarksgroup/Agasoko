@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style3.css">
         <title>Dash board</title>
 
     </head>
@@ -43,11 +43,31 @@
                 </p>
                 <a href="#" class="t1">+New product</a>
             </div>
-            <div class="v">
-                <a href="#">+create product</a>
+        <div class="v">
+            <div class="center">
+                <button button id="show-login">+newproduct</button>
             </div>
+            <div class="popup">
+                  <div class="close-btn">&times;</div>
+                         <div class="form">
+                               <h2>create product</h2>
+                            <div class="form-element">
+                                  <p>product Name</p>
+                                  <input type="text" id="productName" name="" placeholder="Enter product name">
+                                   <p>select color</p>
+                                   <input type="color" id="productColor" value="#ff0000" id="colorWell">
+                                   <p>select images</p>
+                                   <input type="file" name="file" id="file" class="inputfile" />
+                                   <p>Price</p>
+                                   <input type="text" id="productPrice" name="" placeholder="Enter product price">
+                                   <input type="submit" name="" value="create">
+                            </div> 
+                        </div>
+                   </div>
+               
+             </div>
         </div>
       
-
+       <script src="/products/script.js"></script>
     </body>
 </html>

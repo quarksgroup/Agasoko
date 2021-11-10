@@ -17,7 +17,7 @@
 header
 
     {
-        background: var(--carribian-green);
+        background: darkslategray;
     position: fixed;
     top: 0;
     left: 0;
@@ -41,13 +41,13 @@ header a
 }
 header a:hover
 {
-    color: #000;
+    color: var(--carribian-green);
 }
 .loginbox
 {
     width: 320px;
     height: 420px;
-    background: var(--alice-blue);
+    background: darkslategray;
     color:var(--carribian-green);
     top: 50%;
     left: 50%;
@@ -55,6 +55,7 @@ header a:hover
     transform: translate(-50%,-50%);
     box-sizing: border-box;
     padding: 70px 30px;
+    margin-top: 30px;
 }
 .vl
 {
@@ -71,12 +72,14 @@ h1
     padding: 0 0 20px;
     text-align: center;
     font-size: 22px;
+    color: darkslategray;
 }
 .loginbox p
 {
     margin: 0;
     padding: 0;
     font-weight: bold;
+    color: white;
 }
 .loginbox input
 {
@@ -86,11 +89,11 @@ h1
 .loginbox input[type="text"], input[type="password"]
 {
     border: none;
-    border-bottom: 1px solid var(--carribian-green);
+    border-bottom: 1px solid white;
     background: transparent;
     outline: none;
     height: 40px;
-    color: #000;
+    color: white;
     font-size: 16px;
 }
 .loginbox a
@@ -98,7 +101,6 @@ h1
     border: none;
     outline: none;
     height: 10px;
-    background: var(--carribian-green);
      color: #fff;
     font-size: 18px;
     border-radius: 20px;
@@ -108,8 +110,8 @@ h1
     border: none;
     outline: none;
     height: 40px;
-    background: var(--carribian-green);
-    color: #fff;
+    background: white;
+    color: var(--carribian-green);
     font-size: 18px;
     border-radius: 20px;
 }
@@ -117,7 +119,7 @@ h1
 {
     cursor: pointer;
     background:  grey;
-    color: #000;
+    color: var(--carribian-green);
 }
 .loginbox a
 {

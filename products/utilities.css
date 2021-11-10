@@ -17,7 +17,7 @@ body {
 }
 header
 {
-    background: var(--carribian-green);
+    background: darkslategray;
 }
 header a
 {
@@ -37,13 +37,14 @@ header a:hover
 {
     width: 320px;
     height: 500px;
-    background: var(--alice-blue);
+    background: darkslategray;
     top: 60%;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
     padding: 70px 30px;
+    margin-top: 3px;
 }
 .vl
 {
@@ -60,12 +61,14 @@ h1
     padding: 0 0 20px;
     text-align: center;
     font-size: 22px;
+    color: white;
 }
 .sininbox p
 {
     margin: 0;
     padding: 0;
     font-weight: bold;
+    color: white;
 }
 .sininbox input
 {
@@ -75,7 +78,7 @@ h1
 .sininbox input[type="text"], input[type="password"], input[type="confirm"]
 {
     border: none;
-    border-bottom: 1px solid var(--carribian-green);
+    border-bottom: 1px solid #fff;
     background: transparent;
     outline: none;
     height: 40px;
@@ -87,14 +90,14 @@ h1
     border: none;
     outline: none;
     height: 40px;
-    background: var(--carribian-green);
-    color: #fff;
+    background: #fff;
+    color: darkslategray;
     font-size: 18px;
     border-radius: 20px;
 }
 .sininbox input[type="submit"]:hover
 {
     cursor: pointer;
-    background: grey;
-    color: #000;
+    background: var(--carribian-green);
+    color: #fff;
 }

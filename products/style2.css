@@ -23,9 +23,9 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px;
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 0;
-    width: 250%;
+    width: 200%;
     height: 100vh;
     margin-left: 0;
    
@@ -141,7 +141,7 @@ ul li:hover
 {
     transform: scale(1.1);
 }
-#red
+ #red
 {
     background-color: #ef5350;
 }
@@ -182,4 +182,85 @@ body.container #green
 background-color: #66bb6a;
 color: #66bb6a;
 
+}
+.ban
+{
+   
+    background: darkslategrey;
+    width: 20%;
+    height: 100vh;
+}
+.ban .logo
+{
+    background: rgb(124, 119, 119);
+    color: #fff;
+    background-size: cover;
+    font-size: large;
+    width: 100%;
+    height:10vh ;
+   
+    
+}
+.ban h1 {
+   
+    padding: 1px 50px;
+    margin-top: 0px;
+    padding-left: 10px;
+    
+}
+
+.ban .g 
+{
+    margin-top: 40px;
+    margin-left: 10px;
+    list-style: none;
+    align-items: center;
+}
+.ban #g1
+{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: space-between;
+    border-bottom: 20px;
+    margin-left: 10px;
+}
+.ban .g #g1:hover
+{
+    background: green;
+    color: #fff;
+}
+.ban .line {
+    margin-left: 20px;
+}
+.ban .line:hover
+{
+    color: green;
+}
+.ban .l1{
+    border-bottom: 10px solid gray;
+    margin: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+.ban .l1:hover
+{
+color: green;
+}
+.ban .l2{
+    border-bottom: 10px solid gray;
+    margin: 10px;
+    width: 90px;
+    border-radius: 5px;
+}
+.ban .l3{
+    border-bottom: 10px solid gray;
+    margin: 10px;
+    width: 80px;
+    border-radius: 5px;
+}
+.ban img.sm{
+    max-width: 20px;
+    height: 20px;
+    object-fit: cover;
 }

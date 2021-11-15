@@ -1,0 +1,275 @@
+.banner
+{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.page
+{
+  background: gray;
+  width: 100%;
+  height: 100vh;
+}
+.page h2
+{
+  margin-left: 200px;
+  text-transform: capitalize;
+  font-size: large large;
+}
+.page p
+{
+  margin-left: 200px;
+  text-transform: capitalize;
+  font-size: large;
+}
+.page .header
+{
+  background: white;
+  width: 100%;
+  height: 20vh;
+}
+.page .header h1
+{
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+.page .header a
+{
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: large;
+  margin-left: 60px;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 40px;
+  color: black
+}
+.page .header a:hover
+{
+  color: darkslategray;
+}
+.page .header button
+{
+ justify-content: space-between;
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 100px;
+ flex-wrap: wrap;
+ margin-left: 700px;
+ margin-top: 40px;
+}
+.page button
+{
+  margin-left: 200px;
+  text-transform: capitalize;
+  font-size: medium;
+  background: darkslategray;
+  color: white;
+  padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.page button:hover
+{
+  color: white;
+  background: green;
+}
+.container
+{
+   
+    background: darkslategrey;
+    width: 30%;
+    height: 100vh;
+}
+.container .logo
+{
+    background: rgb(124, 119, 119);
+    color: #fff;
+    background-size: cover;
+    font-size: large;
+    width: 100%;
+    height:10vh ;
+   
+    
+}
+h1 {
+   
+    padding: 10px 50px;
+    margin-top: 0px;
+    padding-left: 10px;
+    
+}
+
+ul li
+{
+    margin-top: 40px;
+    margin-left: 20px;
+    list-style: none;
+    align-items: center;
+}
+ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: space-between;
+    border-bottom: 20px;
+}
+ul li a:hover
+{
+    background: green;
+    color: #fff;
+}
+.line {
+    margin-left: 20px;
+}
+.line:hover
+{
+    color: green;
+}
+.l1{
+    border-bottom: 10px solid gray;
+    margin: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+.l1:hover
+{
+color: green;
+}
+.l2{
+    border-bottom: 10px solid gray;
+    margin: 10px;
+    width: 90px;
+    border-radius: 5px;
+}
+.l3{
+    border-bottom: 10px solid gray;
+    margin: 10px;
+    width: 80px;
+    border-radius: 5px;
+}
+img.sm{
+    max-width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.t 
+{
+    margin-top: 200px;
+    margin-left: 30px;
+    
+}
+.t a
+{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+    cursor: pointer;
+}
+.t a:hover
+{
+    background: green;
+    color: #ffff;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-left: 200px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: darkslategray;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.fat
+{
+  display: flex;
+}
+.fat .prd
+{
+  background: whitesmoke;
+  width: 50%;
+  height: 100%;
+  padding: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 20px 30px;
+
+}
+.fat .prd h3
+{
+  
+  justify-content: center;
+  text-align: center;
+  margin-top: 300px;
+  font-size: x-large;
+  font-weight: 300;
+}
+.fat .prd label
+{
+  width: 200px;
+  margin-top: 200px;
+}
+.fat .prd #fileUpload
+{
+  width: 1000px;
+  margin-top: 100px;
+}
